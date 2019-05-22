@@ -40,7 +40,7 @@ func main() {
 	//fmt.Println(image)
 
 	/* LSD call */
-	out, n := LSD(image, X, Y)
+	out, n := lsd.LSD(image, X, Y)
 
 	/* print output */
 	fmt.Printf("%d line segments found:\n", n)
@@ -56,7 +56,7 @@ func main() {
 	//fmt.Println(image)
 
 	/* LSD call */
-	out, n = LSD(image, X, Y)
+	out, n = lsd.LSD(image, X, Y)
 
 	/* print output */
 	fmt.Printf("%d line segments found:\n", n)
