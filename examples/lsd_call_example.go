@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-        "github.com/raff/lsd-go"
+	"github.com/raff/lsd-go"
 )
 
 /* create a simple image: half black, half gray */
